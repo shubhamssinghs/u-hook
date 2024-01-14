@@ -11,9 +11,6 @@
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
