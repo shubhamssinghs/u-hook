@@ -37,4 +37,8 @@ jobs:
 
       - name: Publish to npm
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        run: pnpm publish
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          pnpm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
