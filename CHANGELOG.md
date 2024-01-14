@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 2.0.1
+
+### Patch Changes
+
+- a25fe42: added tsup.config.ts to .npmignore
+
 ## 2.0.0
 
 ### Major Changes
