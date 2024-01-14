@@ -4,22 +4,29 @@ on:
     branches:
       - "master"
 
-concurrency: ${{github.workflow}}-${{github.ref}}
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js and pnpm
+        uses: pnpm/action-setup@v2
         with:
           version: 8
-      - uses: actions/setup-node@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: "pnpm"
 
-      - run: pnpm install --frozen-lockfile
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
@@ -27,3 +34,7 @@ jobs:
           publish: pnpm run build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to npm
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: pnpm publish
