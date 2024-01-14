@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 2.1.0
+
+### Minor Changes
+
+- 5e78744: updated readme.md
+
 ## 2.0.1
 
 ### Patch Changes
