@@ -5,7 +5,7 @@ type EventCallback = (event: Event) => void;
 export default function useEventListener(
   eventType: string,
   callback: EventCallback,
-  element: HTMLElement | Window | Document = window
+  element: EventTarget = window
 ): void {
   const callbackRef = useRef<EventCallback>(callback);
 
