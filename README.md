@@ -1,3 +1,7 @@
+![GitHub CI](https://github.com/dwyl/auth_plug/actions/workflows/ci.yml/badge.svg)
+
+[![https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@shubhamssingh/u-hook)
+
 # Useful-Hook - A Collection of Custom React Hooks
 
 🚀 Welcome to Useful-Hook, a library of custom React hooks for supercharging your React applications.
@@ -104,7 +108,7 @@ Runs an effect only when dependencies change, excluding the initial render.
 
 Tracks the dimensions of the browser window.
 
-# Contribution
+# Contribution [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 If you have additional hooks or improvements to existing ones, feel free to contribute!
 
