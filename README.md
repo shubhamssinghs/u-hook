@@ -44,10 +44,6 @@ Runs an effect only once when the component mounts, similar to componentDidMount
 
 Attaches event listeners to elements and handles event callback functions.
 
-### useFetch
-
-Simplifies data fetching by providing loading, error, and data states for asynchronous requests.
-
 ### useGeolocation
 
 Tracks the user's geolocation and provides loading, error, and data states.

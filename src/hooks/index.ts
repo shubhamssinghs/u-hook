@@ -2,7 +2,6 @@ export { default as useClickOutside } from "./useClickOutside";
 export { default as useEventListener } from "./useEventListener";
 export { default as useToggle } from "./useToggle";
 export { default as useAsync } from "./useAsync";
-export { default as useFetch } from "./useFetch";
 export { default as useScript } from "./useScript";
 export { default as useOnScreen } from "./useOnScreen";
 export { default as useWindowSize } from "./useWindowSize";

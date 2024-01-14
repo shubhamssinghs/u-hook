@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 
 type CallbackType = () => Promise<any>;
 
-interface UseAsyncResult {
+export interface UseAsyncResult {
   loading: boolean;
   error?: any;
   value?: any;
