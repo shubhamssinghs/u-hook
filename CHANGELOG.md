@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 1.0.1
+
+### Patch Changes
+
+- 303da8f: added module resolutuion node in the tsconfig.json
+
 ## 1.0.0
 
 ### Major Changes
