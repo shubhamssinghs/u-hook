@@ -1,4 +1,5 @@
-name: Publish
+name: Auto Publish on CI Success
+
 on:
   workflow_run:
     workflows: [CI]
@@ -16,17 +17,24 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm action
+        uses: pnpm/action-setup@v2
         with:
           version: 8
-      - uses: actions/setup-node@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: "pnpm"
 
-      - run: pnpm install --frozen-lockfile
-      - name: Create Release Pull Request or Publish
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Release Package
         id: changesets
         uses: changesets/action@v1
         with:
