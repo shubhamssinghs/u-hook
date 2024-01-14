@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 1.0.2
+
+### Patch Changes
+
+- 83aef1c: fixing the import issues of library
+
 ## 1.0.1
 
 ### Patch Changes
