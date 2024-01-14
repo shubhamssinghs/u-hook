@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 2.0.0
+
+### Major Changes
+
+- 93b7139: Many more user full u-hooks
+
 ## 1.0.2
 
 ### Patch Changes
