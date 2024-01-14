@@ -1,8 +1,9 @@
+# Useful-Hook - A Collection of Custom React Hooks
+
 ![GitHub CI](https://github.com/dwyl/auth_plug/actions/workflows/ci.yml/badge.svg)
 
 [![https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@shubhamssingh/u-hook)
 
-# Useful-Hook - A Collection of Custom React Hooks
 
 🚀 Welcome to Useful-Hook, a library of custom React hooks for supercharging your React applications.
 
@@ -11,11 +12,11 @@
 To install Useful-Hook, use your preferred package manager:
 
 ```bash
-npm install @shubhamssingh/useful-hook
+npm install @shubhamssingh/u-hook
 # or
-yarn add @shubhamssingh/useful-hook
+yarn add @shubhamssingh/u-hook
 # or
-pnpm install @shubhamssingh/useful-hook
+pnpm install @shubhamssingh/u-hook
 ```
 
 # What is Useful-Hook?
