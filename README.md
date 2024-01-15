@@ -1,15 +1,14 @@
-# Useful-Hook - A Collection of Custom React Hooks
+# u-hook - A Collection of Custom React Hooks
+
+🚀 Welcome to u-hook, a library of custom React hooks for supercharging your React applications.
 
 ![GitHub CI](https://github.com/dwyl/auth_plug/actions/workflows/ci.yml/badge.svg)
 
 [![https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@shubhamssingh/u-hook.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@shubhamssingh/u-hook)
 
-
-🚀 Welcome to Useful-Hook, a library of custom React hooks for supercharging your React applications.
-
 ## Installation
 
-To install Useful-Hook, use your preferred package manager:
+To install u-hook, use your preferred package manager:
 
 ```bash
 npm install @shubhamssingh/u-hook
@@ -19,9 +18,9 @@ yarn add @shubhamssingh/u-hook
 pnpm install @shubhamssingh/u-hook
 ```
 
-# What is Useful-Hook?
+# What is u-hook?
 
-Useful-Hook, formerly known as U-Hook, is a collection of custom React hooks designed to simplify common patterns and functionality in React applications. Each hook is designed to be easy to use and integrate into your projects.
+u-hook, formerly known as U-Hook, is a collection of custom React hooks designed to simplify common patterns and functionality in React applications. Each hook is designed to be easy to use and integrate into your projects.
 
 # List of Hooks
 
@@ -115,4 +114,4 @@ If you have additional hooks or improvements to existing ones, feel free to cont
 
 # License
 
-Useful-Hook is MIT licensed with ❤️ by Shubham Singh.
+u-hook is MIT licensed with ❤️ by Shubham Singh.
