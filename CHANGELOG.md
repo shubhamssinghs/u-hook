@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 2.1.1
+
+### Patch Changes
+
+- c00598b: UpdatedReadme.md file
+
 ## 2.1.0
 
 ### Minor Changes
