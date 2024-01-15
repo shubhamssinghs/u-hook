@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 2.1.2
+
+### Patch Changes
+
+- 5d379f0: readme.md file updated
+
 ## 2.1.1
 
 ### Patch Changes
