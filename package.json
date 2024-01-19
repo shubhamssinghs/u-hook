@@ -6,6 +6,11 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "homepage": "https://github.com/poojyapitaji/u-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poojyapitaji/u-hook"
+  },
   "scripts": {
     "test": "react-scripts test",
     "build": "pnpm test && tsup",
@@ -36,7 +41,8 @@
     "useTimeout",
     "useToggle",
     "useUpdateEffect",
-    "useWindowSize"
+    "useWindowSize",
+    "useMergeState"
   ],
   "author": "",
   "license": "MIT",

@@ -765,6 +765,63 @@ function WindowSizeComponent() {
 export default WindowSizeComponent;
 ```
 
+### useMergeState
+
+Manages the merging of state updates in React components.
+
+### Usage
+
+```javascript
+import React from "react";
+import { useMergeState } from "@shubhamssingh/u-hook";
+
+function MergeStateComponent() {
+  // Use the useMergeState hook to manage a merged state
+  const [state, mergeState] = useMergeState({ key1: "value1" });
+
+  // Example of updating the state using mergeState
+  const updateState = () => {
+    mergeState({ key2: "value2" });
+  };
+
+  return (
+    <div>
+      <h1>Merge State Example</h1>
+      <p>Current State:</p>
+      <pre>{JSON.stringify(state, null, 2)}</pre>
+      <button onClick={updateState}>Update State</button>
+    </div>
+  );
+}
+
+export default MergeStateComponent;
+```
+
+```javascript
+import React from "react";
+import { useMergeState } from "@shubhamssingh/u-hook";
+
+function MergeStateWithCallbackComponent() {
+  // Use the useMergeState hook with an initial state
+  const [state, mergeState] = useMergeState({ count: 0 });
+
+  // Example of updating the state with a callback function
+  const incrementCount = () => {
+    mergeState((currentState) => ({ count: currentState.count + 1 }));
+  };
+
+  return (
+    <div>
+      <h1>Merge State with Callback Example</h1>
+      <p>Current Count: {state.count}</p>
+      <button onClick={incrementCount}>Increment Count</button>
+    </div>
+  );
+}
+
+export default MergeStateWithCallbackComponent;
+```
+
 # Contribution [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 If you have additional hooks or improvements to existing ones, feel free to contribute!
