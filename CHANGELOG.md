@@ -1,5 +1,15 @@
 # @shubhamssingh/u-hook
 
+## 3.0.0
+
+### Major Changes
+
+- 1048356: added new hook called useMergeState
+
+### Patch Changes
+
+- 5d379f0: readme.md file updated
+
 ## 2.1.1
 
 ### Patch Changes
