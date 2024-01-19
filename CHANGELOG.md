@@ -1,5 +1,11 @@
 # @shubhamssingh/u-hook
 
+## 3.1.0
+
+### Minor Changes
+
+- be6de45: updated the readme file for the usage of useMergeState hook and also updated the few configuration in package.json
+
 ## 3.0.0
 
 ### Major Changes
