@@ -18,4 +18,5 @@ export { default as useLongPress } from "./useLongPress";
 export { default as useUpdateEffect } from "./useUpdateEffect";
 export { default as useArray } from "./useArray";
 export { default as usePrevious } from "./usePrevious";
+export { default as useMergeState } from "./useMergeState";
 export { default as useStorage } from "./useStorage";
